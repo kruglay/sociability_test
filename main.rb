@@ -1,5 +1,5 @@
-require "./test.rb"
-require "./print_result.rb"
+require_relative "lib/test.rb"
+require_relative "lib/print_result.rb"
 
 new_test = Test.new
 
