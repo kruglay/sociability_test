@@ -47,9 +47,4 @@ class Test
 
     answer_points
   end
-
-  # getter
-  def points
-    @points
-  end
 end
