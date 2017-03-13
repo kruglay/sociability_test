@@ -1,5 +1,7 @@
 class Test
   attr_reader :points
+  POINTS = {"a" => 2, "b" => 0, "c" => 1}
+  DESCRIPTION  = "answer a - yes, b - no, c - sometimes"
 
   def initialize
     @points = 0
@@ -26,11 +28,8 @@ class Test
 
   # answer the question
   def answer_questions
-    answers_points = Hash["a", 2, "b", 0, "c", 1]
-    answers_description = "answer a - yes, b - no, c - sometimes"
-
     @questions.each do |question|
-      @points += get_question_points(answers_points, answers_description, question)
+      @points += get_question_points(POINTS, DESCRIPTION, question)
     end
   end
 
