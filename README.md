@@ -1,16 +1,20 @@
-##Test of sociability
-Training app. 
+##Тест на общительность
 
-Test of your sociability. 
+Учебная программа. 
 
-To get your sociability you should answer for 16 question where a - 2 points, b - 0 points, c - 1 points
+Тест на общительность. 
 
-####Install
-Clone this app to your local computer
+Чтобы узнать насколько вы общительны вам нужно ответить на 16 вопросов, где ответ a - 2 очка, b - 0 очка, c - 1 очка
 
-####RUN
+####Установка
 
-To run test put in console 
+Скопировать программу на компьютер
+
+####Запуск
+
+В строке консоли набрать
 ```
 ruby main.rb
 ```
+
+Written on Ruby by Vladimir Semenov
